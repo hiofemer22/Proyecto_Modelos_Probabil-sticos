@@ -2,6 +2,8 @@
 
 ## Universidad Nacional de San Antonio Abad del Cusco
 
+[![Logo Unsaac](https://seeklogo.com/images/U/unsaac-logo-DABC2A6888-seeklogo.com.png "Logo Unsaac")](http://seeklogo.com/images/U/unsaac-logo-DABC2A6888-seeklogo.com.png "Logo Unsaac")
+
 
 ### Curso: Modelos Probabilísticos 
 
