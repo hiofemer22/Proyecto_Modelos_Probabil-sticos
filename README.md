@@ -9,10 +9,29 @@
 
 #### Luis Angel Mogrovejo Ccorimanya (220961)
 
-## Descripción del Proyecto: 
-Este proyecto tiene como objetivo aplicar modelos probabilísticos y técnicas de análisis estadístico a un conjunto de datos sobre la producción agrícola en la región del Cusco, Perú. El análisis permite identificar patrones de producción, variaciones y factores que influyen en la productividad agrícola, como el clima, el tipo de cultivo, y la región geográfica dentro del Cusco.
+## Descripción
+Este proyecto analiza datos de producción agrícola en el departamento de Cusco, Perú, con el objetivo de modelar y predecir patrones de producción y rendimiento. La información contenida en el dataset abarca diferentes provincias, distritos, cultivos y períodos agrícolas, permitiendo un análisis exhaustivo de la agricultura en la región y su comportamiento a través del tiempo.
 
-Este trabajo es parte del curso de Modelos Probabilísticos de la Universidad Nacional de San Antonio Abad del Cusco, orientado a desarrollar habilidades en el uso de métodos estadísticos para el análisis de datos y la toma de decisiones en contextos agrícolas y ambientales.
+## Contenido del Dataset
+El dataset contiene las siguientes columnas:
 
-## Contenido del Proyecto Dataset:
-Incluye información histórica sobre la producción de diferentes tipos de cultivos en varias localidades de Cusco. El conjunto de datos contiene las siguientes columnas principales:
+- DEPARTAMENTO: Departamento del Perú al que pertenece el registro (siempre Cusco).
+- PROVINCIA: Provincia dentro del departamento de Cusco.
+- DISTRITO: Distrito dentro de la provincia.
+  UBIGEO: Código único de identificación geográfica.
+- PERIODO_AGRICOLA: Periodo de la temporada agrícola registrada.
+- CULTIVO: Tipo de cultivo plantado.
+- SUPERFICIE_VERDE: Superficie de cultivo no cosechada.
+- SIEMBRA: Superficie sembrada en hectáreas.
+- COSECHA: Superficie cosechada en hectáreas.
+- RENDIMIENTO: Rendimiento de la producción por hectárea.
+- PRODUCCION: Producción total en toneladas.
+- PRECIO_CHACRA: Precio de chacra (precio en el punto de producción).
+- SUPERFICIE_PERDIDA: Superficie perdida en hectáreas.
+- VALOR_PRODUCCION: Valor monetario de la producción.
+- FECHA_CORTE: Fecha de corte del registro.
+
+## Objetivos del Proyecto
+- Realizar un análisis exploratorio de datos (EDA) para entender la distribución de cada variable y sus relaciones.
+- Aplicar modelos probabilísticos para predecir el rendimiento y producción agrícola.
+- Evaluar la precisión de los modelos y ajustar parámetros para obtener mejores resultados.
